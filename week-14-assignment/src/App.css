@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: #e1e8ea;
+}
+.app-container{
+  margin-top: 0;
+}
+.movie-container{
+  background-color: #141414;
+  color: white;
+}
+.movie {
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+.movie h2 {
+  margin-top: 0;
+  font-size: 30px;
+  color: white;
+}
+.stars {
+  font-size: 40px;
+  color: #b08056;
+  cursor: pointer;
+  border-style: none;
+}
+.stars .star {
+  display: inline-block;
+}
+.stars :hover{
+  color: goldenrod;
+}
+h1 {
+  font-size: 48px;
+  color: gold; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #4B0082; 
+}
+.review-form textarea {
+  font-size: 18px;
+  padding: 10px;
+  resize: vertical;
+  width: 50%;
+  height: 150px;
+  border-radius: 15px;
+}
+.review-form button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #04AA6D;
+  color: white;
+}
+.navBar{
+  width: auto;
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+.navBar h2{
+  color: black;
+}
+li{
+  list-style-type: none;
+}
